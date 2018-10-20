@@ -16,7 +16,7 @@ if(isNaN(Number(code))){
 process.exit(code);
 */
 
-if(typeof(code)==="undefiend"||isNaN(Number(code))){
+if(typeof(code)===undefiend||isNaN(Number(code))){
   console.error('命令行参数错误');
   
   process.exit(1);

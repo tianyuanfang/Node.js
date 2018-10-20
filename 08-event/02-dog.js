@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 const EventEmitter=require('events').EventEmitter,
-      util        =require('util');
+     // util        =require('util');
 
 function Dog(name,energy){
   var _name=name;

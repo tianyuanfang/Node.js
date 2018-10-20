@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
- const fs=require('fs');
+const fs=require('fs');
 
 var dir=process.argv[2];
 
- console.log(fs.readdirSync(dir));//返回数组
+console.log(fs.readdirSync(dir));//返回数组

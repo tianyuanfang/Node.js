@@ -22,11 +22,11 @@ function Dog(name,energy){
 
   this.on=(e,fn)=>{
     if(typeof (_listeners[e])==='undefined'){
-     _listeners[e]=[];
+      _listeners[e]=[];
     }
-     _listeners[e].push(fn);
-     console.log(_listeners);
-  }
+    _listeners[e].push(fn);
+    console.log(_listeners);
+  };
 
 }
 

@@ -10,5 +10,5 @@ src._read=function(){
   if(c>'z'.charCodeAt(0)){
     src.push(null);
   }
-}
+};
 src.pipe(process.stdout);

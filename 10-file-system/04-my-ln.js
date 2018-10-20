@@ -1,8 +1,8 @@
 #!/usr/bin/node
 
- const fs=require('fs');
+const fs=require('fs');
 
- var src=process.argv[2],
-     lnk=process.argv[3];
+var src=process.argv[2],
+    lnk=process.argv[3];
 
- fs.linkSync(src,lnk);//硬链接 
+fs.linkSync(src,lnk);//硬链接 
