@@ -1,8 +1,8 @@
 #!/usr/bin/node
 
 console.log("start...");
-var id=setInterval(Loop,50);
-var count=0;
+var id=setInterval(Loop,500);
+var count=1;
 
 function Loop(){
   console.log("I will loop forever");
@@ -12,10 +12,10 @@ function Loop(){
     console.log("end");
   }
 }
-/*
+
 //1
 setTimeout(()=>{
   clearInterval(id);
   console.log("end");
 },1000);
-*/
+
