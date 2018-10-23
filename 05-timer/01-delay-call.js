@@ -21,7 +21,7 @@ Bomb.prototype.explode=function(){
 var b=new Bomb();
 
 var id=setTimeout(b.explode.bind(b),2000);
-//clearTimeout(id);
+clearTimeout(id);
 
 b.explode();
 console.log("b.explode");

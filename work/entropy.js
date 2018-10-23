@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 var argv=process.argv;
-var sum=0;
+//var sum=0;
 var p=[];
 const stdin=process.stdin;
 
