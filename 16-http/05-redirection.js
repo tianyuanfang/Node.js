@@ -2,11 +2,13 @@
 
 const http=require('http');
 const url=require('url');
-const addr='http://www.sian.com/';
+
+var addr='http://www.sian.com/';
 
 function getOption(addr){
   var options=url.parse(addr);
   options.headers={'User-Agent':'curl/7.0'};
+  return options;
 }
 
 function getURL(opt){
