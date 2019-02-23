@@ -1,6 +1,7 @@
 #!/usr/bin/node
 
 process.stdin.resume();
+console.log(process.pid);
 
 process.on('SIGINT',()=>{
  console.log('you press ctrl+c,good bye');

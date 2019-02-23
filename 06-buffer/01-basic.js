@@ -28,6 +28,6 @@ var buf4=new Buffer('hello world',"utf8");
 log('\nbuf4 length:',buf4.length);
 log('\nbuf4 content:',buf4);
 
-buf4.copy(buf3);
+buf4.copy(buf3,0,0,buf4.length);
 log('\nbuf3 length:',buf3.length);
 log('\nbuf3 content:',buf3);

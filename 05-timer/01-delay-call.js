@@ -20,8 +20,10 @@ Bomb.prototype.explode=function(){
 
 var b=new Bomb();
 
-var id=setTimeout(b.explode.bind(b),2000);
-clearTimeout(id);
+var id=setTimeout(()=>{
+  b.explode();
+},2000);
+//clearTimeout(id);
 
-b.explode();
-console.log("b.explode");
+//b.explode();
+//console.log("b.explode");

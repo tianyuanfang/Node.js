@@ -13,6 +13,6 @@ console.log('user:%j',user);
 console.log('qq:%s',user.qq);
 console.log(`qq:${user.qq}`);
 
-console.error('sommething wrong');
+console.error('something wrong');
 
 
